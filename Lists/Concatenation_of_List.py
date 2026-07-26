@@ -1,3 +1,5 @@
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 class Solution:
     def getConcatenation(self, nums):
         ans = []
@@ -7,5 +9,5 @@ class Solution:
         ans = ans + ans1
         return ans
 
-s = Solution();
+s = Solution()
 print(s.getConcatenation([1,2,3,5]))

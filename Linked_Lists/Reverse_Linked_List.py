@@ -17,3 +17,18 @@ class Solution:
             current = temp
         return previous
 
+head = ListNode(1)
+head.next = ListNode(2)
+head.next.next = ListNode(3)
+head.next.next.next = ListNode(4)
+head.next.next.next.next = ListNode(5)
+
+obj = Solution()
+new_head = obj.reverseList(head)
+
+current = new_head
+
+while current:
+    print(current.val, end=" ")
+    current = current.next
+

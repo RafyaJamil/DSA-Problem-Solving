@@ -32,11 +32,7 @@ This repository contains my DSA learning journey, with solutions organized by th
 ```text
 DSA-Problem-Solving/
 │
-├── Arrays/
-├── Strings/
-├── Sets/
-├── Dictionaries/
-├── Recursion/
+├── Lists/
 ├── Linked Lists/
 ├── Stacks/
 ├── Queues/

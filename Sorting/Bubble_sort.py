@@ -1,3 +1,6 @@
+# Time Complexity: O(n²)
+# Space Complexity: O(1)
+
 def bubble_sort(nums):
     n = len(nums)
 

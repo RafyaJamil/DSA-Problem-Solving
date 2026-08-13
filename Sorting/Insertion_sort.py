@@ -1,3 +1,6 @@
+# Time Complexity: O(n²)
+# Space Complexity: O(1)
+
 def insertion_sort(nums):
     for i in range(1, len(nums)):
         key = nums[i]

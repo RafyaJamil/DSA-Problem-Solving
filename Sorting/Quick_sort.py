@@ -1,4 +1,4 @@
-# Time Complexity: O((n²)
+# Time Complexity: O(n²)
 # Space Complexity: O(n)
 
 def quick_sort(nums):
